@@ -1,0 +1,1 @@
+This weather app allows users to search for a city and get real-time weather information such as temperature and weather using the AccuWeather API. In addition to weather data, the app displays a representative image of that city, automatically obtained through the Unsplash API.
