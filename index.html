@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="libraries/css/bootstrap.min.css">
+    <title>Weather App</title>
+</head>
+<body class="bg-dark text-light" style="font-size: 0.9em;">
+    <div class="container my-5 mx-auto" style="max-width: 400px;">
+        <h1 class="text-center my-4 rounded p-3 bg-primary text-light shadow">Weather</h1>
+        <form class="change-location my-4 text-center">
+            <label for="city" class="form-label h5">Enter the location</label>
+            <input type="text" id="city" name="city" class="form-control p-3 mb-3 shadow-sm">
+            <button type="submit" class="btn btn-primary btn-lg w-100">Check Weather</button>
+        </form>
+        <div class="card shadow-lg rounded d-none">
+            <img src="https://placehold.co/400x300" class="card-img-top" alt="Weather image" id="city-image">
+            <div class="card-body text-center">
+                <div class="details">
+                    <h5 class="my-3">City Name</h5>
+                    <div class="my-3">Weather Condition</div>
+                    <div class="display-4 my-4">
+                        <span>temp</span>
+                        <span>&deg;C</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="libraries/js/bootstrap.min.js"></script>
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
